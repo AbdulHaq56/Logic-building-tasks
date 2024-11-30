@@ -22,7 +22,7 @@ if (uName == null || uName == "") {
 
       if (printConfirmation) {
         document.write(
-          `<div><p>Name:</p> <h2> ${uName}</h2> <br><p>Age:</p> <h2> ${uAge}</h2> <br><p>Qualification:</p>  <h2> ${uQualification}</h2></div>`
+          `<div><p class="title">Your Details</p><div class="details"><p>Name:</p> <h2> ${uName}</h2> <br><p>Age:</p> <h2> ${uAge}</h2> <br><p>Qualification:</p>  <h2> ${uQualification}</h2></div></div>`
         );
       } else {
         document.write(`Name: ${uName}`);
